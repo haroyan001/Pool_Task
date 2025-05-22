@@ -1,0 +1,36 @@
+__pycache__/
+
+# Pytest projects
+.pytest_cache/
+
+# PyCharm project files
+.idea/
+venv/
+
+# File-based project format
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Mac specific directories
+.DS_Store
+
+# Optionally we may need to ignore
+# static files, temp files and celery scheduler staff
+celerybeat-schedule
+
+# log files and reports
+storage
+
+
+.coverage
+
+# python virtual environment files
+.venv/
+bin/
+lib/
+pyvenv.cfg
